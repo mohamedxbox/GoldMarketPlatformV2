@@ -20,10 +20,10 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore Dependencies
-      run: dotnet restore .\GoldMarketPlatform\GoldMarketPlatform.csproj
+      run: dotnet restore
 
     - name: Build Project
-      run: dotnet build .\GoldMarketPlatform\GoldMarketPlatform.csproj --no-restore
+      run: dotnet build --no-restore
 
     - name: Run Unit Tests
-      run: dotnet test .\GoldMarketPlatform.Tests\GoldMarketPlatform.Tests.csproj --no-restore
+      run: dotnet test --no-restore
