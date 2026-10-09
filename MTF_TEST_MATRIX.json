@@ -1,0 +1,59 @@
+{
+  "m1_source": "ticks_or_native_m1",
+  "frames": [
+    "M1",
+    "M5",
+    "M15",
+    "M30",
+    "H1",
+    "H4",
+    "D1",
+    "W1",
+    "MN"
+  ],
+  "opportunity_profiles": {
+    "Scalp": [
+      "M1",
+      "M5",
+      "M15"
+    ],
+    "Sniper Hunt": [
+      "M1",
+      "M5",
+      "M15",
+      "HTF_context"
+    ],
+    "Medium": [
+      "M5",
+      "M15",
+      "H1",
+      "H4"
+    ],
+    "Long": [
+      "H1",
+      "H4",
+      "D1",
+      "W1"
+    ]
+  },
+  "static_cs_files": 139,
+  "relevant_files": [
+    "GoldMarketPlatform.DataEngine/Builders/CandleBuilder.cs",
+    "GoldMarketPlatform.DataEngine/Advanced/MarketMapEngine.cs",
+    "GoldMarketPlatform.DataEngine/Advanced/MasterAnalyticalEngine.cs",
+    "GoldMarketPlatform.DataEngine/Managers/TimeFrameManager.cs",
+    "GoldMarketPlatform.MainBrain/Core/MainBrain.cs",
+    "GoldMarketPlatform.MainBrain/Core/DecisionEngine.cs",
+    "GoldMarketPlatform.MainBrain/Advanced/AdvancedDecisionEngine.cs",
+    "GoldMarketPlatform.MainBrain/Advanced/ConfluenceEngine.cs",
+    "GoldMarketPlatform.MainBrain/Pipeline/MarketPipeline.cs",
+    "GoldMarketPlatform/MainWindow.xaml.cs",
+    "GoldMarketPlatform/Services/OpportunityHistoryStore.cs",
+    "GoldMarketPlatform/obj/Debug/net8.0-windows/MainWindow.g.cs",
+    "GoldMarketPlatform/obj/Debug/net8.0-windows/MainWindow.g.i.cs",
+    "GoldMarketPlatform.Tests/ScenarioAndDecisionTests.cs",
+    "GoldMarketPlatform.Tests/TimeFrameManagerTests.cs",
+    "GoldMarketPlatform.Tests/AdvancedDecisionConflictTests.cs",
+    "GoldMarketPlatform.Tests/FinalArchitectureInvariantTests.cs"
+  ]
+}

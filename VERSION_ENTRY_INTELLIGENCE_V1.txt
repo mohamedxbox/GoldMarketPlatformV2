@@ -1,0 +1,20 @@
+GoldMarketPlatform — Entry Intelligence V1
+Date: 2026-09-04
+
+Purpose:
+Separate analytical opportunity discovery from actual entry timing.
+
+Analytical thresholds:
+LongTerm=60
+MediumTerm=64
+Scalping=68
+SniperHunt=74
+
+Entry trigger frames:
+Scalping=M1
+SniperHunt=M1
+MediumTerm=M5
+LongTerm=H1
+
+Important:
+The source was updated and statically sanity-checked. A .NET 8 SDK is required to build and run the updated executable. The included old bin/obj outputs are intentionally excluded from the release archive so an old executable cannot be mistaken for the new build.

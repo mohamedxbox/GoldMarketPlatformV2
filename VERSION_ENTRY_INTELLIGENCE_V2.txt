@@ -1,0 +1,2 @@
+GoldMarketPlatform Entry Intelligence V2
+Final source release for user testing
